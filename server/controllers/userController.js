@@ -125,7 +125,7 @@ export const paymentStripe = async (req, res) => {
       },
     ];
 
-    const frontendUrl = "https://imagify-now.vercel.app";
+    const frontendUrl = "https://only-vercel-2bw4.vercel.app/";
 
     const session = await stripe.checkout.sessions.create({
       line_items: line_items,
