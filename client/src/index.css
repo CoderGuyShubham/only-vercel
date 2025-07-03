@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+*{
+    font-family: Outfit;
+}
+.placeholder-color{
+    color: #e0e0e0;
+    font-weight: 300;
+}
+.filling{
+    fill:black;
+    color: black;
+    stroke-width: 10px;
+}
