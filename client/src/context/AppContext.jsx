@@ -11,7 +11,7 @@ const AppContextProvider = (props) => {
     const [token, setToken] = useState(localStorage.getItem('token'))
     const [credit, setCredit] = useState(false)
 
-    const backendUrl = "https://imagify-backend-8880.onrender.com"
+    const backendUrl = "https://only-vercel.vercel.app/"
 
     const navigate = useNavigate()
 
